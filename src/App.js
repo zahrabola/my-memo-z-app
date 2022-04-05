@@ -39,6 +39,7 @@ function App() {
 
   return (
     <div>
+      <h1>Zahra's Board Game</h1>
       <div className="board">
         {cards.map((card, index) => {
           const flippedToFront =
